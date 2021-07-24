@@ -1,0 +1,24 @@
+type: theory
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    fun sum(valueA: Int, valueB: Int, valueC: Int): Int {
+        fun Int.validateNumber(){
+            if (this == 0) {
+                throw IllegalArgumentException("value must be better than 0")
+            }
+        }
+
+        valueA.validateNumber()
+        valueB.validateNumber()
+        valueC.validateNumber()
+
+        return valueA + valueB + valueC
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Sat, 24 Jul 2021 06:52:55 UTC
+record: -1
+post_submission_on_open: true

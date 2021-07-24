@@ -1,0 +1,20 @@
+type: theory
+custom_name: For Loop
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val ranges = 1..5
+
+        for (i in ranges){
+            println("value is $i!")
+        }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Sat, 24 Jul 2021 14:46:12 UTC
+record: -1
+post_submission_on_open: true
